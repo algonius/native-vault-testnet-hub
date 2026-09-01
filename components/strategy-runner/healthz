@@ -1,10 +1,10 @@
 {
   "status": "config_stamped",
   "process": "not_deployed",
-  "sha": "4eb5322123237d1bda4d7a557e04a80094005b58",
+  "sha": "1d20853d140d1d7966162fc2ec8a35a13db815bd",
   "environment": "testnet",
   "component": "strategy-runner",
-  "built_at": "2026-09-01T16:34:35Z",
+  "built_at": "2026-09-01T17:13:04Z",
   "note": "GitOps overlay stamp only. No daemon is running for this component on Test CD M1.",
   "execution_mode": "paper",
   "allow_mainnet": false,
