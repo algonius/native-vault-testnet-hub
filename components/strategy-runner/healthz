@@ -1,17 +1,17 @@
 {
   "status": "ok",
   "process": "paper_fail_closed",
-  "sha": "3abee311524cb473b4c65d60e2b37fa3685cfc3e",
+  "sha": "0336adb57024f00e202a8c44fcbef97ff09a5d50",
   "environment": "testnet",
   "component": "strategy-runner",
-  "built_at": "2026-09-01T20:11:18Z",
+  "built_at": "2026-09-01T21:16:24Z",
   "process_host": {
     "instance_id": "i-03be0e2de99e47e09",
     "vpc_id": "vpc-0dfe4a0c638fc6a35",
     "instance_profile": "algonius-ssm-profile",
     "daemon": "systemd"
   },
-  "note": "Paper fail-closed systemd on KR7 Test process host. No Hyperliquid keys. data-worker/signer-service still have no main.",
+  "note": "Paper fail-closed systemd on KR7 Test process host. No Hyperliquid keys. Worker/signer are paper fail-closed loopback daemons; signing stays disabled.",
   "execution_mode": "paper",
   "allow_mainnet": false,
   "allow_live_execution": false,
