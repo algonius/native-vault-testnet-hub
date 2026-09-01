@@ -1,10 +1,10 @@
 {
   "status": "config_stamped",
   "process": "not_deployed",
-  "sha": "55bd7d9d7699a929ed1a247d94206e763520448b",
+  "sha": "3abee311524cb473b4c65d60e2b37fa3685cfc3e",
   "environment": "testnet",
   "component": "data-worker",
-  "built_at": "2026-09-01T19:24:19Z",
+  "built_at": "2026-09-01T20:11:18Z",
   "process_host": {
     "instance_id": "i-03be0e2de99e47e09",
     "vpc_id": "vpc-0dfe4a0c638fc6a35",
