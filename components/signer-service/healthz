@@ -1,17 +1,17 @@
 {
   "status": "config_stamped",
   "process": "not_deployed",
-  "sha": "287bb877817c7994fa8ce968d15c70c08a732867",
+  "sha": "55bd7d9d7699a929ed1a247d94206e763520448b",
   "environment": "testnet",
   "component": "signer-service",
-  "built_at": "2026-09-01T18:15:44Z",
+  "built_at": "2026-09-01T19:24:19Z",
   "process_host": {
     "instance_id": "i-03be0e2de99e47e09",
     "vpc_id": "vpc-0dfe4a0c638fc6a35",
     "instance_profile": "algonius-ssm-profile",
     "daemon": "none"
   },
-  "note": "GitOps overlay stamp plus KR7 Test process host. No daemon is running.",
+  "note": "GitOps overlay stamp only. signer-service has no main; signing stays disabled.",
   "signing_enabled": false,
   "allow_withdrawals": false
 }

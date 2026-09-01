@@ -1,19 +1,22 @@
 {
-  "status": "config_stamped",
-  "process": "not_deployed",
-  "sha": "287bb877817c7994fa8ce968d15c70c08a732867",
+  "status": "ok",
+  "process": "paper_fail_closed",
+  "sha": "55bd7d9d7699a929ed1a247d94206e763520448b",
   "environment": "testnet",
   "component": "strategy-runner",
-  "built_at": "2026-09-01T18:15:44Z",
+  "built_at": "2026-09-01T19:24:19Z",
   "process_host": {
     "instance_id": "i-03be0e2de99e47e09",
     "vpc_id": "vpc-0dfe4a0c638fc6a35",
     "instance_profile": "algonius-ssm-profile",
-    "daemon": "none"
+    "daemon": "systemd"
   },
-  "note": "GitOps overlay stamp plus KR7 Test process host. No daemon is running.",
+  "note": "Paper fail-closed systemd on KR7 Test process host. No Hyperliquid keys. data-worker/signer-service still have no main.",
   "execution_mode": "paper",
   "allow_mainnet": false,
   "allow_live_execution": false,
-  "network": "testnet"
+  "signing_enabled": false,
+  "network": "testnet",
+  "sku": "hl_trend_rider_majors",
+  "listen": "127.0.0.1:8088"
 }
