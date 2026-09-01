@@ -1,11 +1,17 @@
 {
   "status": "config_stamped",
   "process": "not_deployed",
-  "sha": "1d20853d140d1d7966162fc2ec8a35a13db815bd",
+  "sha": "287bb877817c7994fa8ce968d15c70c08a732867",
   "environment": "testnet",
   "component": "strategy-runner",
-  "built_at": "2026-09-01T17:13:04Z",
-  "note": "GitOps overlay stamp only. No daemon is running for this component on Test CD M1.",
+  "built_at": "2026-09-01T18:15:44Z",
+  "process_host": {
+    "instance_id": "i-03be0e2de99e47e09",
+    "vpc_id": "vpc-0dfe4a0c638fc6a35",
+    "instance_profile": "algonius-ssm-profile",
+    "daemon": "none"
+  },
+  "note": "GitOps overlay stamp plus KR7 Test process host. No daemon is running.",
   "execution_mode": "paper",
   "allow_mainnet": false,
   "allow_live_execution": false,
