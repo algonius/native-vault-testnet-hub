@@ -1,0 +1,24 @@
+/*
+  X-Robots-Tag: noindex
+  X-Content-Type-Options: nosniff
+
+/api/healthz
+  Content-Type: application/json; charset=utf-8
+
+/api/version
+  Content-Type: application/json; charset=utf-8
+
+/api/v1/catalog
+  Content-Type: application/json; charset=utf-8
+
+/components/strategy-runner/healthz
+  Content-Type: application/json; charset=utf-8
+
+/components/data-worker/healthz
+  Content-Type: application/json; charset=utf-8
+
+/components/signer-service/healthz
+  Content-Type: application/json; charset=utf-8
+
+/deploy.json
+  Content-Type: application/json; charset=utf-8
