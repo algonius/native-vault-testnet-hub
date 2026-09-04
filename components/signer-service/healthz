@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "process": "paper_fail_closed",
-  "sha": "e83db6b59cbf89ac5c6ba8ffa20d2e7c1ba996a7",
+  "sha": "75ed55a065a679a973c7029ca729dc5520e1f8cc",
   "environment": "testnet",
   "component": "signer-service",
-  "built_at": "2026-09-04T17:29:44Z",
+  "built_at": "2026-09-04T17:55:13Z",
   "process_host": {
     "instance_id": "i-03be0e2de99e47e09",
     "vpc_id": "vpc-0dfe4a0c638fc6a35",
