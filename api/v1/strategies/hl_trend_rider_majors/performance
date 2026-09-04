@@ -1,0 +1,425 @@
+{
+  "schema": "algonius-strategy-performance/v1",
+  "strategy_id": "hl_trend_rider_majors",
+  "config_version": "supermarket_hl_trend_rider_majors_v1",
+  "dataset_kind": "paper-run",
+  "dataset_version": "official-majors-paper-ledger-v1",
+  "evidence": {
+    "real_sample_count": 0,
+    "infrastructure_validation_only": true,
+    "profitability_claim": "none",
+    "execution_right_created": false,
+    "remaining_requirement": "official majors paper ledger from public Hyperliquid 1h candles + documented trend-rider gates replay matches hub-api digest; synthetic path remains infrastructure-only; real_sample_count stays 0; LLM paper runtime and Testnet vault remain; Redis/signer remain KR5; not xyz HIP-3, not a profitability claim"
+  },
+  "provenance": {
+    "price_source": "hyperliquid-public-info-candleSnapshot",
+    "decision_source": "documented-trend-rider-gates-v1",
+    "engine": "paper_engine",
+    "interval": "1h",
+    "captured_at": "2026-09-01T08:37:41.747597+00:00",
+    "window_start": "2026-08-02T08:37:34.577Z",
+    "window_end": "2026-09-01T08:37:34.577Z",
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ],
+    "funding_applied": false,
+    "llm_decisions_used": false
+  },
+  "accounting": {
+    "basis": "realized_at_fill",
+    "initial_balance_usd": 10000,
+    "ending_cash_usd": 10017.071948,
+    "net_pnl_usd": 17.071948,
+    "cost_assumptions": {
+      "round_trip_fee_slippage_bps": 4.5,
+      "funding_reserve_bps": 0,
+      "total_cost_bps": 4.5
+    }
+  },
+  "equity": [
+    {
+      "time": "2026-08-02T08:37:34.577Z",
+      "event": "open",
+      "equity_usd": 10000,
+      "realized_pnl_cum_usd": 0,
+      "cost_cum_usd": 0,
+      "drawdown_usd": 0
+    },
+    {
+      "time": "2026-08-10T16:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-1",
+      "equity_usd": 9999.73,
+      "realized_pnl_cum_usd": 0,
+      "cost_cum_usd": 0.27,
+      "drawdown_usd": 0.27
+    },
+    {
+      "time": "2026-08-10T19:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-2",
+      "equity_usd": 9997.406808,
+      "realized_pnl_cum_usd": -2.052269,
+      "cost_cum_usd": 0.540924,
+      "drawdown_usd": 2.593192
+    },
+    {
+      "time": "2026-08-19T14:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-3",
+      "equity_usd": 9997.136878,
+      "realized_pnl_cum_usd": -2.052269,
+      "cost_cum_usd": 0.810854,
+      "drawdown_usd": 2.863122
+    },
+    {
+      "time": "2026-08-19T21:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-4",
+      "equity_usd": 10018.545354,
+      "realized_pnl_cum_usd": 19.500871,
+      "cost_cum_usd": 0.955517,
+      "drawdown_usd": 0
+    },
+    {
+      "time": "2026-08-20T01:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-5",
+      "equity_usd": 10035.229034,
+      "realized_pnl_cum_usd": 36.327088,
+      "cost_cum_usd": 1.098054,
+      "drawdown_usd": 0
+    },
+    {
+      "time": "2026-08-20T08:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-6",
+      "equity_usd": 10034.958082,
+      "realized_pnl_cum_usd": 36.327088,
+      "cost_cum_usd": 1.369005,
+      "drawdown_usd": 0.270951
+    },
+    {
+      "time": "2026-08-20T12:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-7",
+      "equity_usd": 10031.619978,
+      "realized_pnl_cum_usd": 33.258554,
+      "cost_cum_usd": 1.638576,
+      "drawdown_usd": 3.609055
+    },
+    {
+      "time": "2026-08-21T07:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-8",
+      "equity_usd": 10031.349125,
+      "realized_pnl_cum_usd": 33.258554,
+      "cost_cum_usd": 1.909429,
+      "drawdown_usd": 3.879909
+    },
+    {
+      "time": "2026-08-21T12:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-9",
+      "equity_usd": 10038.100226,
+      "realized_pnl_cum_usd": 40.283671,
+      "cost_cum_usd": 2.183445,
+      "drawdown_usd": 0
+    },
+    {
+      "time": "2026-08-23T05:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-10",
+      "equity_usd": 10037.829198,
+      "realized_pnl_cum_usd": 40.283671,
+      "cost_cum_usd": 2.454473,
+      "drawdown_usd": 0.271029
+    },
+    {
+      "time": "2026-08-23T08:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-11",
+      "equity_usd": 10027.890664,
+      "realized_pnl_cum_usd": 30.620515,
+      "cost_cum_usd": 2.72985,
+      "drawdown_usd": 10.209562
+    },
+    {
+      "time": "2026-08-27T16:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-12",
+      "equity_usd": 10027.619911,
+      "realized_pnl_cum_usd": 30.620515,
+      "cost_cum_usd": 3.000603,
+      "drawdown_usd": 10.480315
+    },
+    {
+      "time": "2026-08-27T23:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-13",
+      "equity_usd": 10028.618872,
+      "realized_pnl_cum_usd": 31.8908,
+      "cost_cum_usd": 3.271928,
+      "drawdown_usd": 9.481354
+    },
+    {
+      "time": "2026-08-30T16:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-14",
+      "equity_usd": 10028.348099,
+      "realized_pnl_cum_usd": 31.8908,
+      "cost_cum_usd": 3.542701,
+      "drawdown_usd": 9.752127
+    },
+    {
+      "time": "2026-08-30T20:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-15",
+      "equity_usd": 10018.736178,
+      "realized_pnl_cum_usd": 22.545446,
+      "cost_cum_usd": 3.809268,
+      "drawdown_usd": 19.364048
+    },
+    {
+      "time": "2026-08-30T23:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-16",
+      "equity_usd": 10018.465672,
+      "realized_pnl_cum_usd": 22.545446,
+      "cost_cum_usd": 4.079774,
+      "drawdown_usd": 19.634554
+    },
+    {
+      "time": "2026-08-31T03:00:00Z",
+      "event": "fill",
+      "fill_id": "paper-17",
+      "equity_usd": 10017.071948,
+      "realized_pnl_cum_usd": 21.422733,
+      "cost_cum_usd": 4.350785,
+      "drawdown_usd": 21.028278
+    }
+  ],
+  "fills": [
+    {
+      "id": "paper-1",
+      "time": "2026-08-10T16:00:00Z",
+      "coin": "ETH",
+      "side": "sell",
+      "size_delta": -0.320666987333654,
+      "fill_price": 1871.1,
+      "notional_usd": 600,
+      "fee_usd": 0.27,
+      "realized_pnl_usd": 0,
+      "reason": "documented-trend-rider-gates-v1"
+    },
+    {
+      "id": "paper-2",
+      "time": "2026-08-10T19:00:00Z",
+      "coin": "ETH",
+      "side": "buy",
+      "size_delta": 0.320666987333654,
+      "fill_price": 1877.5,
+      "notional_usd": 602.052269,
+      "fee_usd": 0.270924,
+      "realized_pnl_usd": -2.052269,
+      "reason": "4h_flip"
+    },
+    {
+      "id": "paper-3",
+      "time": "2026-08-19T14:00:00Z",
+      "coin": "SOL",
+      "side": "buy",
+      "size_delta": 7.420602566531928,
+      "fill_price": 80.835,
+      "notional_usd": 599.844408,
+      "fee_usd": 0.26993,
+      "realized_pnl_usd": 0,
+      "reason": "documented-trend-rider-gates-v1"
+    },
+    {
+      "id": "paper-4",
+      "time": "2026-08-19T21:00:00Z",
+      "coin": "SOL",
+      "side": "sell",
+      "size_delta": -3.710301283265964,
+      "fill_price": 86.644,
+      "notional_usd": 321.475344,
+      "fee_usd": 0.144664,
+      "realized_pnl_usd": 21.55314,
+      "reason": "tp6"
+    },
+    {
+      "id": "paper-5",
+      "time": "2026-08-20T01:00:00Z",
+      "coin": "SOL",
+      "side": "sell",
+      "size_delta": -3.710301283265964,
+      "fill_price": 85.37,
+      "notional_usd": 316.748421,
+      "fee_usd": 0.142537,
+      "realized_pnl_usd": 16.826216,
+      "reason": "4h_flip"
+    },
+    {
+      "id": "paper-6",
+      "time": "2026-08-20T08:00:00Z",
+      "coin": "SOL",
+      "side": "buy",
+      "size_delta": 6.8801204595026295,
+      "fill_price": 87.515,
+      "notional_usd": 602.113742,
+      "fee_usd": 0.270951,
+      "realized_pnl_usd": 0,
+      "reason": "documented-trend-rider-gates-v1"
+    },
+    {
+      "id": "paper-7",
+      "time": "2026-08-20T12:00:00Z",
+      "coin": "SOL",
+      "side": "sell",
+      "size_delta": -6.8801204595026295,
+      "fill_price": 87.069,
+      "notional_usd": 599.045208,
+      "fee_usd": 0.26957,
+      "realized_pnl_usd": -3.068534,
+      "reason": "4h_flip"
+    },
+    {
+      "id": "paper-8",
+      "time": "2026-08-21T07:00:00Z",
+      "coin": "BTC",
+      "side": "buy",
+      "size_delta": 0.00788453082563589,
+      "fill_price": 76339,
+      "notional_usd": 601.897199,
+      "fee_usd": 0.270854,
+      "realized_pnl_usd": 0,
+      "reason": "documented-trend-rider-gates-v1"
+    },
+    {
+      "id": "paper-9",
+      "time": "2026-08-21T12:00:00Z",
+      "coin": "BTC",
+      "side": "sell",
+      "size_delta": -0.00788453082563589,
+      "fill_price": 77230,
+      "notional_usd": 608.922316,
+      "fee_usd": 0.274015,
+      "realized_pnl_usd": 7.025117,
+      "reason": "4h_flip"
+    },
+    {
+      "id": "paper-10",
+      "time": "2026-08-23T05:00:00Z",
+      "coin": "ETH",
+      "side": "sell",
+      "size_delta": -0.25362614797206773,
+      "fill_price": 2374.7,
+      "notional_usd": 602.286014,
+      "fee_usd": 0.271029,
+      "realized_pnl_usd": 0,
+      "reason": "documented-trend-rider-gates-v1"
+    },
+    {
+      "id": "paper-11",
+      "time": "2026-08-23T08:00:00Z",
+      "coin": "ETH",
+      "side": "buy",
+      "size_delta": 0.25362614797206773,
+      "fill_price": 2412.8,
+      "notional_usd": 611.94917,
+      "fee_usd": 0.275377,
+      "realized_pnl_usd": -9.663156,
+      "reason": "4h_flip"
+    },
+    {
+      "id": "paper-12",
+      "time": "2026-08-27T16:00:00Z",
+      "coin": "SOL",
+      "side": "buy",
+      "size_delta": 5.522979987746032,
+      "fill_price": 108.94,
+      "notional_usd": 601.67344,
+      "fee_usd": 0.270753,
+      "realized_pnl_usd": 0,
+      "reason": "documented-trend-rider-gates-v1"
+    },
+    {
+      "id": "paper-13",
+      "time": "2026-08-27T23:00:00Z",
+      "coin": "SOL",
+      "side": "sell",
+      "size_delta": -5.522979987746032,
+      "fill_price": 109.17,
+      "notional_usd": 602.943725,
+      "fee_usd": 0.271325,
+      "realized_pnl_usd": 1.270285,
+      "reason": "4h_flip"
+    },
+    {
+      "id": "paper-14",
+      "time": "2026-08-30T16:00:00Z",
+      "coin": "ETH",
+      "side": "buy",
+      "size_delta": 0.2377952625377115,
+      "fill_price": 2530.4,
+      "notional_usd": 601.717132,
+      "fee_usd": 0.270773,
+      "realized_pnl_usd": 0,
+      "reason": "documented-trend-rider-gates-v1"
+    },
+    {
+      "id": "paper-15",
+      "time": "2026-08-30T20:00:00Z",
+      "coin": "ETH",
+      "side": "sell",
+      "size_delta": -0.2377952625377115,
+      "fill_price": 2491.1,
+      "notional_usd": 592.371779,
+      "fee_usd": 0.266567,
+      "realized_pnl_usd": -9.345354,
+      "reason": "4h_flip"
+    },
+    {
+      "id": "paper-16",
+      "time": "2026-08-30T23:00:00Z",
+      "coin": "SOL",
+      "side": "sell",
+      "size_delta": -5.909015734746571,
+      "fill_price": 101.73,
+      "notional_usd": 601.124171,
+      "fee_usd": 0.270506,
+      "realized_pnl_usd": 0,
+      "reason": "documented-trend-rider-gates-v1"
+    },
+    {
+      "id": "paper-17",
+      "time": "2026-08-31T03:00:00Z",
+      "coin": "SOL",
+      "side": "buy",
+      "size_delta": 5.909015734746571,
+      "fill_price": 101.92,
+      "notional_usd": 602.246884,
+      "fee_usd": 0.271011,
+      "realized_pnl_usd": -1.122713,
+      "reason": "4h_flip"
+    }
+  ],
+  "positions": [],
+  "risk": {
+    "max_drawdown_usd": 21.028278,
+    "max_drawdown_bps_of_initial": 21.028278,
+    "closed_count": 9,
+    "open_count": 0,
+    "cost_share_of_turnover": 0.00045,
+    "limits": {
+      "max_open_positions": 1,
+      "max_entry_percent": 6,
+      "max_leverage": 2
+    }
+  },
+  "input_sha256": "9feef566618f7a368da90bc7777e816644ad63eb44d294f4ec1a090b202c0d98",
+  "generated_at": "2026-09-04T09:45:50Z"
+}
