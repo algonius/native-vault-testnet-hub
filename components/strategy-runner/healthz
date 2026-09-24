@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "process": "paper_fail_closed",
-  "sha": "82a4072cc4e55d2c3056fef33c24eedf8b23a8ea",
+  "sha": "9fead6fe1c670cdc0e21c5654fcb01039ef754cf",
   "environment": "testnet",
   "component": "strategy-runner",
-  "built_at": "2026-09-23T13:49:33Z",
+  "built_at": "2026-09-24T02:28:26Z",
   "process_host": {
     "instance_id": "i-03be0e2de99e47e09",
     "vpc_id": "vpc-0dfe4a0c638fc6a35",
