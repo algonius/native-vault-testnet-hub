@@ -1,0 +1,24 @@
+{
+  "schema": "algonius-vault-nav-measurement/v1",
+  "strategy_id": "hl_trend_rider_majors",
+  "chain_id": 998,
+  "vault": "0x71172871BCbe41dD8624Ede0294a56FA0FB87622",
+  "owner": "0xb8405EFaC8c9fEE6dece82C711bd4b3093742085",
+  "note": "Registered HyperEVM testnet vault share price. Not a live return. Not the August paper replay.",
+  "points": [
+    {
+      "time": "2026-09-26T21:43:23Z",
+      "total_assets": "1000000000000000000",
+      "shares": "1000000000000000000",
+      "share_price": 1,
+      "source": "deposit 0x3c0105d484118ba0eeb48c49199c182b71213d917f6000275e32f8b6449516c9"
+    },
+    {
+      "time": "2026-09-27T23:36:08Z",
+      "total_assets": "1000000000000000000",
+      "shares": "1000000000000000000",
+      "share_price": 1,
+      "source": "eth_call totalAssets and balanceOf"
+    }
+  ]
+}
