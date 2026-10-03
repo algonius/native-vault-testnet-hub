@@ -1,13 +1,13 @@
 {
   "status": "ok",
   "process": "paper_fail_closed",
-  "sha": "bc0b6a7a45047a1efc2facda532cc7175db5d598",
+  "sha": "ca04664c0fafdc1a2bb408003a9ae06ce5cab15a",
   "environment": "testnet",
   "component": "strategy-runner",
-  "built_at": "2026-10-03T19:27:09Z",
+  "built_at": "2026-10-03T19:31:07Z",
   "process_host": {
-    "instance_id": "i-03be0e2de99e47e09",
-    "vpc_id": "vpc-0dfe4a0c638fc6a35",
+    "instance_id": "i-078ea43842828b525",
+    "vpc_id": "vpc-0b314c3d93fdc836a",
     "instance_profile": "algonius-ssm-profile",
     "daemon": "systemd"
   },
